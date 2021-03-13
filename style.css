@@ -1,0 +1,403 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", Helvetica, sans-serif;
+  background: transparent linear-gradient(180deg, #2a537b 0%, #6d5291 100%)
+    no-repeat fixed;
+  opacity: 1;
+  color: #fff;
+}
+
+#container  {
+  width: 100%;
+  max-width: 1135px;
+  margin: auto;
+}
+
+
+
+nav {
+  background: #2a6d90;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.logo {
+
+  margin-left: 60px;
+}
+
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav ul li a {
+  color: #fff;
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+  background: #1d075f;
+  transition: 5s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+
+#conteudoPrincipal {
+  display: flex;
+  margin-top: 20px;
+}
+
+.bgConteudo {
+  background: #476592 0% 0% no-repeat padding-box;
+  width: 752px;
+  height: 954px;
+}
+.conteudoSecundario {
+  opacity: 1;
+  margin: 0 60px;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  font: normal normal bold 44px/50px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-top: 70px;
+}
+
+.conteudoTexto {
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+.esfera {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.esfera > img {
+  width: 97px;
+  height: 97px;
+  background: #efefef 0% 0% no-repeat padding-box;
+  border: 3px solid #ffffff;
+  border-radius: 49px;
+}
+
+.artigo {
+  width: 368px;
+  height: 954px;
+  background: #6d5291 0% 0% no-repeat padding-box;
+  opacity: 1;
+  margin-left: 16px;
+}
+
+.conteudoArtigo {
+  margin: 31px;
+}
+
+.conteudoArtigo > p {
+  margin-top: 31px;
+  text-align: left;
+  padding: 10px;
+}
+
+.divulgacao {
+  display: flex;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.subparagrafo {
+  font-size: 16px;
+  margin-top: 16px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+.conteudoDivulgacao {
+  text-align: right;
+  margin-right: 33px;
+}
+
+.button1 {
+  background: #95c3db 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  width: 203px;
+  height: 59px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 21px;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer;
+}
+
+.bg-contato {
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+}
+
+.formulario {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.nome {
+  box-sizing: border-box;
+  width: 499px;
+  height: 52px;
+  border: 1px solid #000000;
+  border-radius: 62px;
+  margin: 40px 0px;
+}
+
+input.inputNome {
+  width: 495px;
+  height: 29px;
+  border-radius: 62px;
+  border: none;
+  outline: none;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  font: normal normal bold 20px/50px Arial;
+  margin-left: 10px;
+}
+
+legend.descricao {
+  width: 128px;
+  margin: 0 20px;
+  color: #000;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  text-align-last: center;
+}
+
+legend.cpf {
+  width: 50px;
+  margin: 0 20px;
+  color: #000;
+  background: #f4f4f4 0% 0% no-repeat padding-box;
+  text-align-last: center;
+}
+
+.form-1 {
+  box-sizing: border-box;
+  margin: 20px;
+}
+
+.btnForm > button {
+  width: 203px;
+  height: 59px;
+  font: normal normal bold 20px/24px Arial;
+  color: #fff;
+  background: #6d5291 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+
+.btnForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+/* Footer */
+
+footer {
+  margin-top: 58px;
+  margin-bottom: 92px;
+}
+
+.tituloFooter {
+  text-align: center;
+  font: normal normal bold 16px/18px Arial;
+}
+
+.DescFooter {
+  
+
+  text-align: center;
+  margin-top: 35px;
+  font: normal normal normal 16px/18px Arial;
+  letter-spacing: 0px;
+  color: #ffffff;
+}
+
+/* Media menu */
+@media (max-width: 952px) {
+  .logo {
+    font-size: 30px;
+    padding-left: 20px;
+    display: none;
+  }
+
+  nav ul li a {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 858px) {
+  .checkbtn {
+    display: block;
+  }
+
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #1d075f;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  
+
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+  a.active,
+  a:hover {
+    background: none;
+    color: #5434af;
+    transition: 1s;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+}
+
+/* Termina Media Menu */
+
+
+@media (max-width: 1136px) {
+
+  body {
+    line-height: 1.5;
+    font: normal normal bold 20px/24px Arial;
+  }
+
+  
+
+  #conteudoPrincipal, img,.bgConteudo, .artigo,.conteudoDivulgacao, footer{
+     width: 100%;
+     height: 100%;
+     margin: 0;
+
+     display: block;
+     text-align: center;
+
+  }
+  .esfera {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .esfera > img {
+    margin: 0.5rem 0px 0.5rem 0px;
+   
+  }
+
+  .divulgacao {
+    flex-direction: column-reverse;
+  }
+
+  .bannerDivulgacao  {
+    width:100%;
+  }
+
+  .formulario {
+    width: 100%;
+     height: 100%;
+     display: block;
+     padding:20px;
+     text-align: center;
+
+  }
+
+  .form-1 > .nome {
+    display: block;
+    width: 100%;
+    text-align: -webkit-center;
+    
+  }
+
+  .btnForm {
+    display: block;
+   
+  }
+
+  .form-1 {
+    height: 100%;
+    align-items: center;
+  }
+
+  legend.descricao, legend.cpf {
+    width: auto;
+    
+  }
+
+  input.inputNome {
+    width: 94%;
+    height: 100%;
+  }
+
+  .conteudoArtigo  {
+
+    justify-content: center;
+  }
+
+  footer {
+    padding:20px;
+    text-align: center;
+  }
+}
